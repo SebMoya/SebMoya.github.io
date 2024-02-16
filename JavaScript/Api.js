@@ -55,6 +55,7 @@ for (const client of personArr) {
     cardTitle.innerText = `${client.FirstName} ${client.LastName}`
     p.innerText = `Ålder:${client.Age}, Land: ${client.Country}`
     img.src = client.Img;
+    img.loading="lazy";
     cardBody.appendChild(cardTitle);
     cardBody.appendChild(p);
     card.appendChild(img);
