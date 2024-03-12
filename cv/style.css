@@ -39,12 +39,12 @@
             line-height: 1.6;
         }
 
-        a {
+        .contacta {
             color:white;
             text-decoration: none;
         }
         
-        a:hover {
+        .contacta:hover {
             text-decoration: underline;
         }
 
